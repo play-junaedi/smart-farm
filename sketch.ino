@@ -24,9 +24,9 @@
  *************************************************************/
 
 /* Fill-in information from Blynk Device Info here */
-#define BLYNK_TEMPLATE_ID           "TMPL68QMOltbV"
-#define BLYNK_TEMPLATE_NAME         "Quickstart Template"
-#define BLYNK_AUTH_TOKEN            "4wpaNForF37R1F-BxM2GYUqDeOWvSLAf"
+#define BLYNK_TEMPLATE_ID           "xxxxx"
+#define BLYNK_TEMPLATE_NAME         "xxxxx"
+#define BLYNK_AUTH_TOKEN            "xxxxx"
 
 /* Comment this out to disable prints and save space */
 #define BLYNK_PRINT Serial
@@ -59,8 +59,8 @@
 DHT dht(DHT_PIN, DHT_TYPE);
 
 // WiFi credentials
-char ssid[] = "iot";
-char pass[] = "00000000";
+char ssid[] = "SSID-NAME";
+char pass[] = "SSID-PASS";
 
 BlynkTimer timer;
 
